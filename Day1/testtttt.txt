@@ -1,0 +1,17 @@
+Full-width::
+
+Container-fluid Width=100%
+
+Box Layout::
+
+Container - Width=1140px
+
+Row + Col-lg-12 Col-md-12
+
+Row + col-lg-6 col-md-6 col-sm-12
+
+
+col-lg
+col-md
+col-sm
+col-xs

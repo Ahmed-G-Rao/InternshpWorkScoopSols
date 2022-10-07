@@ -1,0 +1,43 @@
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1 ,.bar2 , .bar3{
+    margin: 6px 0;
+    background-color: rebeccapurple;
+    height: 3px;
+    width: 45px;
+    transition: 0.5s;
+}
+
+.change .bar1{
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: translate(0,-11px)rotate(45deg);
+}
+
+.button{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 22px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+.button:hover{
+    background-color: bisque;
+    color: black;
+}
+.badge{
+    background-color: red;
+    font-size: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right:-15px;
+    top:-10px
+}

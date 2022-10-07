@@ -1,0 +1,189 @@
+.basicPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navBarRow{
+    height: 100px;
+}
+.coverImage{
+    width:100%;
+    height: 400px;object-fit: fill;
+}
+.radios{
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(11, 11, 11);
+    color: rgb(11, 11, 11);
+    margin: 10px;
+}
+b{
+    font-weight: 900;
+}
+.socialImages{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 1px;
+    border-radius: 10px;
+    
+}
+
+.socialContainer{
+   padding-left: 90%;
+    margin-top: -250px;
+}
+.followUs{
+    font-weight: 700;
+    font-size: medium;
+}
+.hrs{
+    width: 40%;
+    border: 0.5px solid black;
+}
+.footerLeft{
+    margin-top: 4%;
+    padding-left: 3%;
+    letter-spacing: 1px;
+}
+.bgColor{
+    background-color: rgb(251,188,4);
+}
+.bgColor2{
+    background-color:rgba(233,233,233,255);
+}
+#headingSetting{
+text-align: center;margin-top: 3%;padding-bottom: 3%;
+}
+.headingContent{
+    font-family: fantasy;font-weight: 1000;letter-spacing: 5px;font-size: 1em;
+}
+#hr1{
+  border-top: 4px double;
+  width:40% ;
+  margin-left: 30%;
+  margin-top: 0.1%;
+}
+#subHeading{
+   
+    margin-top: -4%; 
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing:3px ;
+}
+#seconds{
+    margin-left: 2%;margin-bottom:3%
+}
+.row{
+   --bs-gutter-x: 0; 
+    
+}
+.radios:hover{
+    background-color:rgb(188, 219, 219);
+}
+.floater{
+    float: right;
+}
+.radioBoxes{
+    width:100%
+}
+.radioBoxes2{
+    width:100%
+}
+.selectButton2{
+    height: 50px;
+    width:96% ;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    margin-left: 1.6%;
+    margin-top: 8%;
+    color: white;
+    font-size: 22px
+}
+.selectButton1{
+    margin-top: 8%;
+    width:96% ;
+}
+.btnHover:hover{
+    /* background-color: rgb(50, 47, 47); */
+    background-color: rgb(251,188,4);
+    color: black;
+
+}
+.tenSecHeading{
+    margin-left: 5%;
+
+}
+
+.option1Box{
+   
+    background-color: rgb(225, 236, 236);
+    border-right: 1px solid rgb(179, 170, 170);
+    padding-left: 10%;
+    padding-top: 15px;
+    
+    }
+   
+.option2Box{
+    padding-top: 10px;
+    background-color: rgb(225, 236, 236);
+    padding-bottom: 60px;
+    padding-left: 9%;
+    
+}
+
+
+/* DAY 5 */
+.burger{
+    display: block;
+}
+
+.dropdown-menu{
+   padding-right: 25%;
+}
+.dropdown-menu:hover{
+    background-color: rgb(251,188,4);
+}
+
+.dropdown-item:hover{
+    background-color: rgb(251,188,4);
+    opacity: 0.9;
+    font-weight: 600;
+}
+.navbar{
+    margin-right: 1%;
+    float: right;
+    background-color: rgb(251,188,4);
+}
+/* .form-check-input:checked{
+    background-color: black;
+} */
+/* .form-check-input{
+    
+} */
+/* .form-check:checked{
+    background-color: rgb(189, 35, 35);
+    border: none
+} */
+.form-check{
+    padding-left: 1%;
+}
+input[name="optradio"] {
+	accent-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    margin:10px 0px 0px 10px ;
+    padding-bottom: 30px;
+}
+input[name="optradio1"] {
+	accent-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    margin:10px 0px 0px 10px ;
+    padding-bottom: 30px;
+   
+}
+.form-check-label{
+    padding-left: 5%;
+    padding-top: -15px;
+}

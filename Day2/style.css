@@ -1,0 +1,175 @@
+
+/* .divs{
+    height: 500px;
+    width: 100%;
+} */
+
+/* First Row */
+.divOneLeftTextArea{
+    margin-left: 10px;margin-top: 10%;
+}
+.textOfFirstBox{
+    font-family:fantasy;letter-spacing: 2px;
+}
+.textOfFirstBoxAd{
+    font-family: fantasy;color:beige;
+}
+#btnOnee{
+    height: 50px;width:220px ;background-color: rgb(27, 26, 26);
+                    border: none;margin-left: 5%;margin-top: 15%;
+                    color: white
+}
+
+.sliderMargin{
+   margin-left: -12px;
+}
+.sliderImages{
+    height: 500px;
+}
+
+
+/* Second Row */
+#WhoWeAre{
+   margin-left: 6%;font-family: fantasy;text-decoration-line: underline;text-decoration-style: double;margin-top: 10%;letter-spacing:2px ;padding-bottom: 20px;
+}
+.TextWhoWeAre{
+   font-family: Arial;font-size:16px;margin-left: 6%;overflow: hidden;
+}
+.truckStyling{
+   width:100%;height: 100%;margin-left:-1%;
+}
+
+
+/* Third Row */
+.boxesRowThree{
+    font-family: fantasy;padding-top: 70px;padding-bottom: 20px;margin-left: 6%;letter-spacing: 2px;
+}
+.boxesRowThreeRight{
+   color: white;
+}
+.boxesRowThreeLeftUl{
+    margin-left: 6%;font-weight: 700;margin-bottom: 8%;
+}
+.boxesRowThreeLeftHr{
+    border-top: 2px solid black;
+}
+.boxThreeRightUl{
+    margin-left: 6%;font-weight: 400;margin-bottom: 8%;color: white; line-height: 40px;
+}
+
+/* Fourth Row */
+
+#headingSetting{
+    text-align: center;margin-top: 3%;padding-bottom: 3%;
+    }
+    .headingContent{
+        font-family: fantasy;font-weight: 1000;letter-spacing: 5px;font-size: 1em;
+    }
+    #hr1{
+      border-top: 4px double;
+      width:40% ;
+      margin-left: 30%;
+      margin-top: 0.1%;
+    }
+    #subHeading{
+        margin-left: 44%;
+        margin-top: -4%;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing:3px ;
+    }
+
+    /* Fifth Row */
+
+    .lorem{
+        font-family: Arial;margin-left: 2%;font-weight: 400;
+    }
+    .divStyling{
+       margin-top: -50px;margin-left: 6%;
+    }
+    .boxStyle{
+        margin-left: 2%;height:15%;
+        margin-bottom: 20px;
+    }
+    .boxColor{
+        
+            font-size: 20px; 
+            padding: 5px; 
+            border: 2px solid rgb(246, 50, 1); 
+            color: rgb(246, 50, 1);
+            margin: 10px;
+    }
+
+  .btnTwoo{
+   width:40%;height:20%;font-size: 26px;letter-spacing: 3px;color: black;font-weight: 600;margin-left: 5px;margin-top: 20px;padding:10px 10px ;border: none;
+  }
+
+
+ 
+    .warnings{
+    color: red;
+    font-size: 12px;
+    line-height: 0ch;
+}
+#bgImg{
+    background-image: url('assets/bgCar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Advertising Heading */
+
+
+
+
+/* FOOTER */
+.socialContainer{
+    margin-left: 80px;
+     margin-top: -250px;
+ }
+ .followUs{
+     font-weight: 700;
+     font-size: medium;
+ }
+ .hrs{
+     width: 40%;
+     border: 0.5px solid black;
+ }
+ .footerLeft{
+     margin-top: 4%;
+     padding-left: 3%;
+     letter-spacing: 1px;
+ }
+ .bgColor{
+     background-color: rgb(251,188,4);
+ }
+ .bgColor2{
+     background-color: rgb(225, 236, 236);
+ }
+ .bgColor3{
+    background-color: white;
+ }
+ .socialImages{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 1px;
+    border-radius: 10px;
+    
+}
+b{
+    font-weight: 900;
+}
+
+
+.basicPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+.btn:hover{
+    opacity:0.9 ;
+}

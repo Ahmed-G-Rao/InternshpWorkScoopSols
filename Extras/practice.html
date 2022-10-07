@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="stylePractice.css">
+<style>
+    .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(230, 204, 6);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgb(208, 18, 18);
+}
+</style>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class=" btn-group">
+        <button class="btn btn-primary">Button Primary</button>
+        <button class="btn btn-secondary">Button Secondary</button>
+        <button class="btn btn-primary">Button Primary</button>
+        <div class="btn-group">
+            <button type="button " class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Toggle Button</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item">List 1</a>
+                </div>
+            
+        </div>
+    </div>
+    <div class="progress">
+    <div class=" progress-bar progress-bar-striped progress-bar-animated" style="width:60% ;">60%</div>
+    <div class="progress-bar progress-bar-animated bg-danger" style="width:20%">20%</div>
+    <div class="progress-bar progress-bar-animated bg-info" style="width:10%">10</div>
+    </div>
+    <button class="btn btn-info">
+        <span class="spinner-border spinner-border-sm"></span> Spinner
+    </button>
+    <button class="btn btn-primary">
+        <span class="spinner-grow spinner-grow-sm text-muted"></span>
+    </button>
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">&larr;</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link active">4</a></li>
+        <li class="page-item"><a href="#" class="page-link" >5</a></li>
+        <li class="page-item"><a href="#" class="page-link">6</a></li>
+        <li class="page-item"><a href="#" class="page-link">7</a></li>
+        <li class="page-item"><a href="#" class="page-link">8</a></li>
+        <li class="page-item"><a href="#" class="page-link">&rarr;</a></li>
+
+    </ul>
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">1</a></li>
+        <li class="breadcrumb-item"><a href="#">2</a></li>
+        <li class="breadcrumb-item"><a href="#">3</a></li>
+        <li class="breadcrumb-item active"><a href="#">4</a></li>
+        <li class="breadcrumb-item"><a href="#">5</a></li>
+
+    </ul>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark">1</li>
+        <li class="list-group-item list-group-item-primary">2</li>
+        <li class="list-group-item list-group-item-secondary">3</li>
+        <li class="list-group-item list-group-item-success">4</li>
+    </ul>
+    <div class="list-group">
+        <a href="https://www.google.com" class="list-group-item list-group-item-success list-group-item-action">Google</a>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">Inbox Messages <span class="badge bg-secondary rounded-pill ">12</span></li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">Sent Messages <span class="badge bg-primary rounded-pill">13</span></li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">Draft Messages <span class="badge bg-primary rounded-pill">42</span></li>
+
+    </ul>
+    <button class="btn btn-primary 
+btn-block
+">Button</button>
+
+
+<label class="container">One
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">O2
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+  <label class="container">3
+    <input type="radio" checked="checked" name="radio">
+    <span class="checkmark"></span>
+  </label>
+
+
+  <div class="container" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+
+  <a href="#" class="button">
+    <span>Inbox Messages</span>
+    <span class="badge">5</span>
+  </a>
+  <script>
+    function myFunction(x){
+        x.classList.toggle("change");
+    }
+  </script>
+</body>
+</html>

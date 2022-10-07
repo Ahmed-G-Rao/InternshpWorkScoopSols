@@ -1,0 +1,25 @@
+.radios{
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid rgb(11, 11, 11);
+    color: rgb(11, 11, 11);
+    margin: 10px;
+}
+.socialImages{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 1px;
+    
+}
+
+.testclass2{
+    background-color: rgb(251,188,4);
+}
+.row{
+   --bs-gutter-x: 0; 
+    
+}
+.radios:hover{
+    background-color:rgb(188, 219, 219);
+}
