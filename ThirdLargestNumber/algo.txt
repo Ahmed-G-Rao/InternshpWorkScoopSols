@@ -1,0 +1,155 @@
+Algo 1(not working due to duplication)
+1	sort by largest
+2	trim last
+3	sort by largest
+4	trim by last
+5	sort by largest	
+6	trim by last
+7 	print last
+
+
+Algo 2
+1   sort
+2   3 vars to 2(store temp vals)
+3   loop through array
+4   if first num > temp1 step 5
+5   make temp1 empty and store current value, then step 3
+6   else if current value >temp2 and not eq to temp1 then step 7
+7   make temp2 empty and store current value, then step 3
+8   else if current value >temp3 and not eq to temp1 and temp2
+9   store current value in it
+
+
+
+EXTRA COMMENTS
+//    $newArray= array_unique($arrr);
+//     // sort($arrr);
+//   for($i=0;$i<sizeof($newArray);$i++){
+//         echo ($newArray[$i]."           ");
+       
+
+//     }
+
+ 
+    
+
+    // echo ($number);
+    // for($i=0;$i<=$n;$i++){
+    //     if($number==$arrr[$i]){
+          
+           
+    //     } 
+    //     break;
+    // }
+    // $newArr = array_diff($arrr,array(1));
+    // // $newArr=array_unique($arrr);
+
+    // // unset($arrr[2]);
+    // for($i=0;$i<=sizeof($newArr);$i++){
+    //     echo ($newArr[$i]."    ");
+    // }
+    // for($i=0;$i<sizeof($arrr);$i++){
+    //     // array_unique($arrr);
+    //     echo ($arrr[$i]."           ");
+       
+
+    // }
+
+
+
+
+
+    // for($i=0;$i<sizeof($arrr);$i++){
+    //     echo ($arrr[$i]."           ");
+       
+
+    // }
+    // echo "<br>";
+    // for($var=0;$var<3;$var++){
+    //     // echo ($var."<br>");
+    //     sort($arrr);
+    //     array_pop($arrr);
+    //     echo "<br>";
+    // for($i=0;$i<sizeof($arrr);$i++){
+    //     echo ($arrr[$i]."           ");
+       
+
+    // }
+    // }
+
+    
+    // for ($i=0;$i<=$x;$i++)
+    // {
+    //     if($arrr[$x]==$arrr[$x-1])
+    //     {
+    //         $x--;
+    //         ++$sameNumber;
+    //         // if($sameNumber>=3){
+    //         //     break;
+    //         // }
+            
+    //     }
+    //     else if($arrr[$x]!=$arrr[$x-1])
+    //     {
+    //         echo($sameNumber);
+    //          $x--;
+    //          echo "<br><h1>Largest Number : ".$arrr[$x-$sameNumber]."</h1>";
+    //          break;
+    //     }
+    // }
+          
+
+          
+           
+    //     }
+    // }
+    // for($i=0;$i<$n;$i++){
+    //     echo ($arrr[$i]);
+    // }
+    
+    // echo "<br>";
+    // echo $arrr[$n-1];
+
+    // for($i=$x;$i>=0;$i++){
+         
+    //     if($arrr[$x]==$arrr[$x-1]){
+    //     array_pop($arrr);
+    //     $x--;
+    //     break;
+        
+    // }
+   
+// function arrayPopper($arrr,$n){
+//     $larger=0;
+      
+//         return $larger;
+// }
+ 
+
+//  echo( arrayPopper($arrr,$n));
+//  array_pop($arrr);
+//  echo( arrayPopper($arrr,$n));
+// $firstLargest=0;
+// $secondLargest=0;
+// $ThirdLargest=0;
+// for($i = 0; $i < $n; $i++){
+//     //i=0;fl=1;in=1 ()i=1;fl=5;() i=2;fl=7() i=3;fl=7 () i=4;fl=9
+//              if ($arrr[$i] > $firstLargest) {
+//              $firstLargest = $arrr[$i];
+               
+//         }
+//     }
+//     for($i = 0; $i < $n; $i++){
+//         if($arrr[$i]>$secondLargest && $arrr[$i]<$firstLargest){
+//             $secondLargest=$arrr[$i];
+                 
+//          }
+//         }
+//         for($i = 0; $i < $n; $i++){
+//          if($arrr[$i]>$ThirdLargest && $arrr[$i]<$secondLargest){
+//             $ThirdLargest=$arrr[$i];
+//         }
+//     }
+    // echo ($ThirdLargest);
+    
+    // for($i=0;$i<$n)
