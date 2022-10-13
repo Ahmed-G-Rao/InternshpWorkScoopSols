@@ -1,8 +1,10 @@
 <?php
 //                                                x-1=8  x=9
-    $arrr = array(  1,  5,  7,  1,  9,  8,  5,  8,  9,  9);
+    $arrr = array(  1,  5,  7,  1,  9,  10,  5,  8,  9,  9);
+    // $arrr = array(  -1, -5,  -7,  -1,  -9,-2 );
+
     $n = sizeof($arrr);
-    $temp1= $temp2= $temp3=0;
+    $temp1= $temp2= $temp3=PHP_INT_MIN;
    
    
     // $x = $n-1;
